@@ -20,6 +20,7 @@ public class App {
             if (i == 30) {
                 try {
                     Thread.sleep(4 * 1000);
+                    System.out.println(" ========= ");
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
